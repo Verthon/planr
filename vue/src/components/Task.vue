@@ -1,14 +1,10 @@
 <template>
-  <div :class=this.setClass($attrs.type) draggable="true">{{$attrs.task.description}}</div>
+  <div :class=this.setClass($attrs.task.type) draggable="true">{{$attrs.task.description}}</div>
 </template>
 
 <script>
 export default {
   name: "Task",
-  props: {
-    id: Number,
-    description: String
-  },
   methods: {
     setClass: (name) => 'task task--' + name
   }
