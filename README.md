@@ -1,24 +1,8 @@
-# planr
+# Planr
 
-## Project setup
-```
-npm install
-```
+Simple planner for creating tasks and managing them based on status and type.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Tech stack
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Vue.js
+- localStorage

@@ -1,18 +1,34 @@
+<!--
+Type:
+- feature
+- bugfix
+- deafult
+
+Color:
+- aquamarine (#7fffd4, feature)
+- crimson (#990000, bugfix)
+- broken white (#f2f2f2, default)
+Description: 'string',
+Status: (fetched from column name)
+
+-->
+
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="container" >
+      <Table/>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Table from './components/Table.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
-  }
+    Table,
+  },
 }
 </script>
 
